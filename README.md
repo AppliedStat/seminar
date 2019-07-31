@@ -16,7 +16,7 @@ Hosted by SEC on August 31, 2018
 - **Talk 4**:  *Parametric versus Nonparametric and Robustness*  
     - [Talk-4.pdf](Talk-4.pdf) (slide), [Talk-4.r](R/Talk-4.r) (R example) 
 - **Talk 5**:  *Statistical Simulation*  
-    - [Talk-5.pdf](Talk-5.pdf) (slide), [Talk-5.r](R/Talk-5.r) (R example), [Talk-5-supplemental.pdf](R/Talk-5-supplemental.pdf) (supplemental)
+    - [Talk-5.pdf](Talk-5.pdf) (slide), [Talk-5.r](R/Talk-5.r) (R example), [Talk-5-extra.pdf](Talk-5-extra.pdf) (supplemental)
 - **Talk 6**:  *Other Issues (heaviness and skewness)* 
     - [Talk-6.pdf](Talk-6.pdf) (slide), [Talk-6.r](R/Talk-6.r) (R example) 
 - **Talk 7**:  *Frequently Asked Questions*
