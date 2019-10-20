@@ -1,4 +1,5 @@
-# Seminars by [Chanseok Park](https://appliedstat.github.io) at [Applied Statistics Lab.](https://sites.google.com/view/appliedstatlab)
+# Seminars by [Chanseok Park](https://appliedstat.github.io) 
+  at [Applied Statistics Lab.](https://statpnu.github.io)
 ---
 
 ## Seminar-A: 로버스트 통계와 모델 적합도(適合度)
