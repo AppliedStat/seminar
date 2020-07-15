@@ -2,8 +2,7 @@
   at [Applied Statistics Lab.](https://statpnu.github.io)
 ---
 
-## Several inequalities used for construction of the $\bar{X}$ and $S$ control charts with unequal sample sizes
+## Several inequalities used for construction of the X-bar and S control charts with unequal sample sizes
 
-Hosted by *IEICE Technical Committee Conference on Reliability*
-    - [Slide](Slide-Park-Nagoya.pdf).
+Hosted by *IEICE Technical Committee Conference on Reliability* at Nagoya, Japan - [Slide](Slide-Park-Nagoya.pdf).
 
