@@ -53,7 +53,7 @@
 
 # 
 # Load Hodges-Lehmann and Shamos estimators.
-source("https://raw.githubusercontent.com/AppliedStat/seminar/master/R/Rsec.R")
+source("https://raw.githubusercontent.com/AppliedStat/seminar/master/2018/R/Rsec.R")
 # 
 
 ITER = 1000
@@ -154,7 +154,7 @@ mean(S)
 # (5-3): s vs. s/c4 vs vs R vs R/d2 
 #-------------------------------------------------------------
 # Load d2 and c4. Or use Table in Talk-5-supplemental.pdf
-source("https://raw.githubusercontent.com/AppliedStat/seminar/master/R/Rsec.R")
+source("https://raw.githubusercontent.com/AppliedStat/seminar/master/2018/R/Rsec.R")
 set.seed(1) 
 ITER = 1E5 
 R = Rd2 = SD = SDc4 = numeric(ITER) 

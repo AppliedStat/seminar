@@ -1,7 +1,7 @@
 #####################################################################
 # Phone-lines Example from Welch (1987)
 #####################################################################
-source("https://raw.githubusercontent.com/AppliedStat/seminar/master/R/Rsec.R")
+source("https://raw.githubusercontent.com/AppliedStat/seminar/master/2018/R/Rsec.R")
 library(MASS);
 #---------------------
 data  = c(-988,-135,-78,3,59,83,93,110,189,197,204,229,269,310)
