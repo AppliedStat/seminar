@@ -9,6 +9,8 @@
 - **Talk 3**: *결측(缺測) 데이터와 그 대책* 
 - **Talk 4**: *사례 연구*
 
+- **Talk-R**: [Example](Talk-R.r) with [R](https://www.r-project.org) language.
+
     
 ---
 ## [2018](2018)  seminar  
