@@ -335,8 +335,3 @@ wp.test.critical(alphas,n)   # This package used ITER=1E8
 
 
 
-
-
-
-
-

@@ -74,4 +74,50 @@
   shamos(x)          # Fisher-consistent Shamos
   shamos.unbiased(x) # unbiased Shamos 
 
+# ------------------------------------
+# Miscellaneous 
+# ------------------------------------
+  Y0 = c(-2,   -1, 0, 1,  2)
+  Y1 = c(-102, -1, 0, 1,102)  
+
+  library("rQCC")
+
+  c(var(Y0), mad(Y0), mad.unbiased(Y0), shamos(Y0) )
+
+  c(var(Y1), mad(Y1), mad.unbiased(Y1), shamos(Y1) )
+
+  finite.breakdown (n=5, method="mad")
+
+  finite.breakdown (n=5, method="shamos")
+
+
+# =======================================================
+# Talk-3
+# =======================================================
+
+######################################################
+x1 = c(2, 2.2,2.4,2.6, NA, NA,3.2, NA,3.6,3.8,  4,4.2)
+x2 = c(93,115, 96,116, NA, NA, NA,103, 95,112,100,120)
+x3 = c(NA, NA, 26, 28, 30, 32, 34, 36, NA, 40, 42, 44)
+
+V = cov(cbind(x1,x2,x3), use="pairwise")
+cov2cor(V)
+
+# We calculate the above manually. (same result). 
+x1p = c(2, 2.2,2.4,2.6, 3.2, 3.6,3.8,  4,4.2)
+x3p = c(26, 28, 30, 32, 34, 36,  40, 42, 44)
+s1 = sd(x1p)
+s3 = sd(x3p)
+
+x1c = c(2.4, 2.6, 3.2, 3.8, 4.0, 4.2 )
+x3c = c(26,   28,  34,  40,  42,  44 )
+
+x1cbar = mean(x1c)
+x3cbar = mean(x3c)
+NUM = sum( (x1c-mean(x1c))*(x3c-mean(x3c)) ) / 5
+NUM / (s1*s3)
+
+
+
+
 
