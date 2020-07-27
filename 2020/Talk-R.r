@@ -121,6 +121,14 @@
 # =======================================================
 # Talk-4
 # =======================================================
+
+# -------------------------------------------------------
+#  Example: Application (t-test)
+# -------------------------------------------------------
+#  The example below is for constructing X-bar control chart
+#      with Hodges-Lehmann and Shamos estimator 
+#           instead of sample mean and variance.
+
    install.packages("rQCC")  # if rQCC is not installed
 
    library("rQCC")   
@@ -136,4 +144,32 @@
    data2 = matrix(tmp, ncol=4, byrow=TRUE)
    
    rcc(data2, loc="HL2", scale="shamos")
+
+
+
+# -------------------------------------------------------
+#  Example: Application (Competing Risks with censoring, masking, etc.)
+# -------------------------------------------------------
+   source("https://raw.githubusercontent.com/AppliedStat/R-code/master/2006b/Rpp5.R")
+
+   X=c(1.9, 2.1, 3.2, 1.1, 2.1, 1.0, 2.0, 6.1, 3)     # lifetime observation
+   M=list(1, 1, 1, 2, 2, 3, 3, 0, c(1,2,3))           # failure modes
+
+#  ---------------------------
+#  We assume that there is full masking in M. 
+   expo.cm.EM(X,M)      # Exponential Model
+   norm.cm.EM(X,M)      # Normal Model
+   norm.cm.EM(log(X),M) # Lognormal Model
+   weibull.cm.EM(X,M)   # Weibull Model
+   wald.cm.EM(X,M)      # Wald (inverse Gaussian) Model (need to be improved)
+
+#  ---------------------------
+#  We assume that there is partial masking in M. 
+   M = list(1, 1, 0, c(2,3), 2, 3, 3, c(1,2), c(1,2,3)) 
+
+   expo.cm.EM(X,M)     
+   norm.cm.EM(X,M)      # Normal Model
+   norm.cm.EM(log(X),M) # Lognormal Model
+   weibull.cm.EM(X,M)   # Weibull Model
+   wald.cm.EM(X,M)      # Wald (inverse Gaussian) Model (need to be improved)
 
