@@ -143,8 +143,9 @@
    55, 63, 72, 49, 49, 51, 55, 76, 72, 80, 61, 59, 61, 74, 62, 57 )
    data2 = matrix(tmp, ncol=4, byrow=TRUE)
    
-   rcc(data2, loc="HL2", scale="shamos")
-
+   out = rcc(data2, loc="HL2", scale="shamos")
+   summary(out)
+   plot(out)
 
 
 # -------------------------------------------------------
@@ -155,7 +156,7 @@
    X=c(1.9, 2.1, 3.2, 1.1, 2.1, 1.0, 2.0, 6.1, 3)     # lifetime observation
    M=list(1, 1, 1, 2, 2, 3, 3, 0, c(1,2,3))           # failure modes
 
-#  ---------------------------
+#  --------------------
 #  We assume that there is full masking in M. 
    expo.cm.EM(X,M)      # Exponential Model
    norm.cm.EM(X,M)      # Normal Model
@@ -163,7 +164,7 @@
    weibull.cm.EM(X,M)   # Weibull Model
    wald.cm.EM(X,M)      # Wald (inverse Gaussian) Model (need to be improved)
 
-#  ---------------------------
+#  --------------------
 #  We assume that there is partial masking in M. 
    M = list(1, 1, 0, c(2,3), 2, 3, 3, c(1,2), c(1,2,3)) 
 
@@ -172,4 +173,28 @@
    norm.cm.EM(log(X),M) # Lognormal Model
    weibull.cm.EM(X,M)   # Weibull Model
    wald.cm.EM(X,M)      # Wald (inverse Gaussian) Model (need to be improved)
+
+
+# -------------------------------------------------------
+#  Example: Application (grouped data in Nelson, 1982)
+# -------------------------------------------------------
+source("https://raw.githubusercontent.com/AppliedStat/R-code/master/2018/Rs2.R")
+
+## Data from Nelson (1982). "Applied Life Data Analysis"
+X1 = c( 0, 6.12, 19.92, 29.64, 35.40, 39.72, 45.24, 52.32, 63.48 )
+X2 = c(    6.12, 19.92, 29.64, 35.40, 39.72, 45.24, 52.32, 63.48, Inf )
+f  = c( 5, 16, 12, 18, 18, 2, 6, 17, 73 )
+
+#-----------------------------------------------
+Xinterval = cbind( rep(X1,f), rep(X2,f) )
+para.exp  = ic.exp.EM(Xinterval, start=1, eps=1E-5)
+para.wei  = ic.weibull.QEM(Xinterval, beta0=1, lam0=1, eps=1E-5)
+
+cat("\n\n***** Exponential Model *****\n")
+print(para.exp)
+
+
+cat("\n\n***** Weibull Model ***** \n")
+print(para.wei)
+
 
