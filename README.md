@@ -10,11 +10,10 @@
     - [Talk-3.pdf](Talk-3.pdf)
 - **Talk 4**: Applications (사례 연구)
     - [Talk-4.pdf](Talk-4.pdf)
-
-- **Talk-R**: [Example (R Code)](2020/Talk-R.r) with [R](https://www.r-project.org) language.
+- **Talk-R**: Examples ([R language](https://www.r-project.org) codes)
+    - [Talk-R.r](2020/Talk-R.r) 
 
     
 ---
 ## [2018](2018)  seminar  
-## [2019](2019)  seminar  
 ---
