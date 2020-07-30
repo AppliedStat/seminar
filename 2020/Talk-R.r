@@ -44,7 +44,14 @@
 # =======================================================
 
 # ------------------------------------
-# Install R Package
+# Install rQCC Package
+#
+# Package Source: 
+#      https://cran.r-project.org/web/packages/rQCC/
+#
+# Vignettes: 
+#      https://cran.r-project.org/web/packages/rQCC/vignettes/factors.cc.pdf
+#      https://cran.r-project.org/web/packages/rQCC/vignettes/rcc.pdf
 # ------------------------------------
   install.packages("rQCC")  
 
@@ -168,7 +175,7 @@
 #  We assume that there is partial masking in M. 
    M = list(1, 1, 0, c(2,3), 2, 3, 3, c(1,2), c(1,2,3)) 
 
-   expo.cm.EM(X,M)     
+   expo.cm.EM(X,M)      # Exponential Model
    norm.cm.EM(X,M)      # Normal Model
    norm.cm.EM(log(X),M) # Lognormal Model
    weibull.cm.EM(X,M)   # Weibull Model
