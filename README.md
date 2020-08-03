@@ -10,6 +10,8 @@
     - [Talk-3.pdf](Talk-3.pdf)
 - **Talk 4**: Applications (사례 연구)
     - [Talk-4.pdf](Talk-4.pdf)
+- **Talk 5**: FAQ (질의응답)
+    - [Talk-5.pdf](Talk-5.pdf)
 - **Talk-R**: Examples ([R language](https://www.r-project.org) codes)
     - [Talk-R.r](2020/Talk-R.r) 
 
