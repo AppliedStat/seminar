@@ -4,6 +4,31 @@
 Hosted by College of Economics and Management, 
 Nanjing University of Aeronautics and Astronautics, China  (November 27, 2020). 
 
+### Abstract 
+Motivated with the construction of Shewhart-type control charts with unequal sample sizes,
+we provide several estimators which are needed to estimate process parameters.
+When samples are unbalanced, special cares should be taken to ensure the unbiasedness of estimators.
+
+In this talk, we consider incorporating the proposed method into the control charts.
+The usual requirement under the control charts is that the sample sizes of subgroups are all equal (balanced)
+under the normality.  In practice, it is often the case that the samples are not balanced.
+There exist several ad-hoc methods to handle the case of unbalanced samples.
+However, these ad-hoc methods are biased, which can result in under-performance.
+
+We suggest several unbiased estimators and provide
+the rigorous proofs of the inequalities needed for selecting an estimator.
+The proofs reveal an interesting and useful connection between the statistical and
+mathematical theories.
+For example, the normal-consistency factor c4
+can be expressed using the Wallis' production formula calculating pi and the Watson representation.
+
+In addition, we also consider the issues when the normality assumption is violated.
+Time permitting, we will discuss how to apply the proposed methods in other applications such as robust design.
+
+
+
+
+
 - **Talk 1**: Motivation and Control Chart 
     - [Talk-1.pdf](Talk-1.pdf) 
 - **Talk 2**: Other Applications 
