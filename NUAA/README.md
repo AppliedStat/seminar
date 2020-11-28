@@ -2,7 +2,7 @@
 ---
 ## Title: Quality Control with Unequal Sample Sizes
 Hosted by Dr. Ouyang,  College of Economics and Management, 
-Nanjing University of Aeronautics and Astronautics, China  (December 3, 2020). 
+Nanjing University of Aeronautics and Astronautics, China 
 
 ### Abstract 
 Motivated by the construction of Shewhart-type control charts with unequal
