@@ -1,8 +1,8 @@
 # Speaker: [Chanseok Park](https://appliedstat.github.io) at [Applied Statistics Lab.](https://statpnu.github.io)
 ---
 ## Title: Quality Control with Unequal Sample Sizes
-Hosted by College of Economics and Management, 
-Nanjing University of Aeronautics and Astronautics, China  (November 27, 2020). 
+Hosted by Dr. Ouyang,  College of Economics and Management, 
+Nanjing University of Aeronautics and Astronautics, China  (December 3, 2020). 
 
 ### Abstract 
 Motivated by the construction of Shewhart-type control charts with unequal
