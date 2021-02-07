@@ -1,4 +1,4 @@
-# Seminars by [Chanseok Park](https://appliedstat.github.io) at [Applied Statistics Lab.](https://statpnu.github.io)
+# Seminars by [Chanseok Park](https://appliedstat.github.io) at [Applied Statistics Lab.](https://sites.google.com/view/appliedstatlab)
 ---
 ## Title: 오염 및 결측(缺測) 데이터와 그 대책
    Hosted by SEC on August 5, 2020 

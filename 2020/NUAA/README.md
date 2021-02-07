@@ -1,4 +1,4 @@
-# Speaker: [Chanseok Park](https://appliedstat.github.io) at [Applied Statistics Lab.](https://statpnu.github.io)
+# Speaker: [Chanseok Park](https://appliedstat.github.io) at [Applied Statistics Lab.](https://sites.google.com/view/appliedstatlab)
 ---
 ## Title: Quality Control with Unequal Sample Sizes
 Hosted by Dr. Ouyang,  College of Economics and Management, 
