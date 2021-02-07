@@ -17,6 +17,6 @@
 
     
 ---
-## [2018](../../2018)  seminar  
+## [2018](https://github.com/AppliedStat/seminar/blob/master/2018/README.md) seminar  
 
 
