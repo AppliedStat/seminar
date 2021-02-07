@@ -7,8 +7,9 @@ Hosted by BK21 FOUR (Major in Industrial Data Science & Engineering)
 Motivated by the minimum distance method in statistics, 
 we provide the method for supply chain design for facility location.
 
+(**This is an informal internet presentation.**)
 
-- **References**: 
+### References
     - [Ref-1](https://doi.org/10.1201/b10956): Minimum Distance.
     - [Ref-2](https://doi.org/10.1080/01605682.2020.1811790): Location-driven approach.
     
