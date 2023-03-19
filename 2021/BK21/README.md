@@ -1,5 +1,6 @@
 ## Title: Supply Chain Design for Facility Location based on Minimum Distance Approach 
-### by [Chanseok Park](https://appliedstat.github.io) at [Applied Statistics Lab.](https://sites.google.com/view/appliedstatlab)
+### by [Chanseok Park](https://appliedstat.github.io) at
+[Applied Statistics Lab.](https://appliedstat.github.io/ASL/)
 
 Hosted by BK21 FOUR (Major in Industrial Data Science & Engineering)
 
